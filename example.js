@@ -1,5 +1,5 @@
 const path = require('path');
-// const EasyEnv = require('easyenv');
+// const EasyEnv = require('easy-env-loader');
 
 // using relative path for this example
 const EasyEnv = require('./');

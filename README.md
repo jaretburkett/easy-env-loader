@@ -1,4 +1,4 @@
-## easyenv
+## easy-env-loader
 
 #### Easily get variables from a .env file in Node Js
 
@@ -9,13 +9,13 @@ This module requires Node JS >v6.4
 NPM
 
 ```bash
-npm install easyenv --save
+npm install easy-env-loader --save
 ```
 
 Yarn
 
 ```bash
-npm yarn add easyenv
+npm yarn add easy-env-loader
 ```
 
 ### Usage
@@ -24,7 +24,7 @@ Basic usage
 
 ```javascript
 const path = require('path');
-const EasyEnv = require('easyenv');
+const EasyEnv = require('easy-env-loader');
 
 const defaults = {
     ENV_CONTENT:'This is coming from defaultValues option'

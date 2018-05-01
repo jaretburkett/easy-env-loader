@@ -1,5 +1,5 @@
 {
-  "name": "easyenv",
+  "name": "easy-env-loader",
   "version": "0.0.1",
   "description": "Easily get variables from a .env file in Node JS",
   "main": "easyenv.js",
@@ -11,18 +11,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaretburkett/easyenv.git"
+    "url": "git+https://github.com/jaretburkett/easy-env-loader.git"
   },
   "keywords": [
     ".env",
     "env",
     "envfile",
-    "dotenv"
+    "dotenv",
+    "config",
+    "loader"
   ],
   "author": "Jaret Burkett <jaretburkett@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jaretburkett/easyenv/issues"
+    "url": "https://github.com/jaretburkett/easy-env-loader/issues"
   },
-  "homepage": "https://github.com/jaretburkett/easyenv#readme"
+  "homepage": "https://github.com/jaretburkett/easy-env-loader#readme"
 }
