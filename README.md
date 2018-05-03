@@ -15,7 +15,7 @@ npm install easy-env-loader --save
 Yarn
 
 ```bash
-npm yarn add easy-env-loader
+yarn add easy-env-loader
 ```
 
 ### Usage
@@ -72,4 +72,17 @@ does not exist, the default values will be used instead.
 ### An example
 
 You can see more in the `example.js` file included.
+
+Example .env file
+
+```
+# Comments that start with the # symbol are ignored
+
+# ^ Blank Spaces are ignored
+
+ENV_CONTENT=This is a string variable for ENV_CONTENT
+
+# Numbers will be parsed as strings. use parseInt(VAR NAME) or parseFloat(VAR NAME) to get number as a number
+NUMBER=3
+```
 
