@@ -1,10 +1,10 @@
 {
   "name": "easy-env-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Easily get variables from a .env file in Node JS",
   "main": "easyenv.js",
-  "engines" : {
-    "node" : ">=6.4"
+  "engines": {
+    "node": ">=6.4"
   },
   "scripts": {
     "test": "node example.js"
