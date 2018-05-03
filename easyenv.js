@@ -24,6 +24,10 @@ class EasyEnv{
 
     _processEnvFile(envPath, fileType){
         this.raw[fileType] = fs.readFileSync(envPath, 'utf8');
+
+        // normalize carriage returns
+        this.raw[fileType] = this.raw[fileType].replace(/\r?\n|\r/g, "\n");
+
         this.envLines[fileType] = this.raw[fileType].split('\n');
         for(let i = 0; i < this.envLines[fileType].length; i++){
             // remove head and trailing whitespace
